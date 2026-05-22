@@ -1,0 +1,22 @@
+# .streamlit/config.toml
+# Streamlit server config for Hugging Face Spaces / cloud deployment
+
+[server]
+headless = true          # required for HF Spaces (no browser auto-open)
+port = 7860              # HF Spaces expects port 7860
+enableCORS = false
+enableXsrfProtection = false
+
+[theme]
+base = "dark"
+primaryColor = "#FF6B35"
+backgroundColor = "#080818"
+secondaryBackgroundColor = "#0d0d22"
+textColor = "#e5e7eb"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false  # privacy: don't send telemetry
+
+[runner]
+fastReruns = true         # faster reloads on code change
