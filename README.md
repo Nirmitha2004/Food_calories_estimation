@@ -141,8 +141,8 @@ Public URL: `https://yourusername-food-vision-ai-app-xxxxx.streamlit.app`
 Once deployed on HF Spaces:
 
 ```
-🔗 Your public link:
-https://huggingface.co/spaces/YOUR_USERNAME/food-vision-ai
+🔗 Your public link: My app link
+https://huggingface.co/spaces/nirmitha/food-vision-ai/blob/main/app.py
 
 Share it anywhere:
 • WhatsApp / Telegram — paste the link
